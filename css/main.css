@@ -1,0 +1,65 @@
+body{
+    padding-top: 10%;
+    text-align: center;
+    margin: auto;
+    background-color: #fafafa;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.bacSection{
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    align-content: center;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.question{
+    height: 75px;
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hidden{
+    height: 50px;
+}
+.pad-bottom{
+    padding-bottom: 25px;
+}
+#bConsumed{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+#wConsumed{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+#sConsumed{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+#weight{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+#hours{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.answer{
+    display: none;
+    font-weight: bold;
+    padding-top: 5px;
+}
